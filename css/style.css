@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-#questions, #answers {
+#questions, #answers, #title {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: white;
@@ -43,7 +43,7 @@ section {
     align-items: center;
 }
 
-#nextq, #next {
+button {
 background-color: #4CAF50; /* Green */
 border: none;
 color: white;
@@ -53,4 +53,16 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;
 margin: 10vw 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    height: 5vh;
+    font-size: 300%;
 }
