@@ -7,39 +7,50 @@
 </head>
 
 <body>
-    <div id="questions">
-        <p class="q1">"What element"</p>
-        <p class="q2">"full name"</p>
-        <p class="q3">"in Python?"</p>
-        <p class="q4">"prime number"</p>
-    </div>
-    <button onclick="myFunction()">Click Me</button>
-    
-    <div id="answers">
-        <table class="q1">
-            <tr>
-                <td>"A  L"</td>
-                <td>"I  V"</td>
-            </tr>
-        </table>
-        <table class="q2">
-            <tr>
-                <td>"Lord"</td>
-                <td>"de Mimsy-"</td>
-            </tr>
-        </table>
-        <table class="q3">
-            <tr>
-                <td>"Print"</td>
-                <td>"World')"</td>
-            </tr>
-        </table>
-        <table class="q4">
-            <tr>
-                <td>"5 +"</td>
-                <td>"- 3"</td>
-            </tr>
-        </table>
-    </div>
+    <table>
+        <tr id="questions">
+            <td>
+                <p class="q1">What element</p>
+                <p class="q2">full name</p>
+                <p class="q3">in Python?</p>
+                <p class="q4">prime number</p>
+            </td>
+        </tr>
+        <tr id="answers">
+            <td>
+                <button onclick="showAnswers()">Show Answers</button>
+                <table id="prompts">
+                    <tr>
+                        <td>PRESS Q</td>
+                        <td>PRESS W</td>
+                    </tr>
+                </table>
+                <table id="q1">
+                    <tr>
+                        <td>A  L</td>
+                        <td>I  V</td>
+                    </tr>
+                </table>
+                <table class="q2">
+                    <tr>
+                        <td>Lord</td>
+                        <td>de Mimsy-</td>
+                    </tr>
+                </table>
+                <table class="q3">
+                    <tr>
+                        <td>Print</td>
+                        <td>World')</td>
+                    </tr>
+                </table>
+                <table class="q4">
+                    <tr>
+                        <td>5 +</td>
+                        <td>- 3</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
